@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Travel reservation form</h1>
+    <b>* denotes mandotory</b><br><br>
+    <form action="/action.php">
+        <b>Full name*:</b><br>
+        <input type="Full Name" placeholder="FirstName LastName"><br>
+        <b>Email address*:</b><br>
+        <input type="Email address" placeholder="EMAIL_ADDRESS"><br></form>
+    <b>   Select Tour Package</b><br>
+    <select name="City">
+        <option type="Goa">Goa</option>
+            <option type="England">England</option>
+                <option type="Canada">Canada</option>
+        </option>    
+    </select><br>
+    <B>Artival date*:</B><br>
+    <select name="month">
+    <option name="Jan">Jan</option>
+    <option name="Feb">Feb</option>
+    <option name="Mar">Mar</option>
+    <option name="Apr">Apr</option>
+    </select>
+    <select name="date">
+    <option name="1">1</option>
+    <option name="2">2</option>
+    <option name="3">3</option>
+    <option name="4">4</option>
+</select>
+    <select name="year">
+    <option name="2000">2000</option>
+    <option name="2001">2001</option>
+    <option name="2002">2002</option>
+    <option name="2003">2003</option>
+</select><br>
+    <b>Number of persons*:</b><br>
+    <input type="Number of persons" placeholder="Unknown Type"><br>
+    <b>What would you want to avail*</b><br>
+    <label for="01">
+<input type="checkbox" value="Boarding" name="form" id="01">Boarding
+</label><br>
+    <label type="02">
+    <input type="checkbox" value="Fooding" name="form" id="02">Fooding
+</label><br>
+    <label for="03">
+    <input type="checkbox" value="Sight seeing" name="form" id="03">Sight seeing
+</label><br>
+    <b>Discount Coupon code:</b><br>
+    <input type="Discount Coupon code" placeholder="Unknown_type"><br>
+    <b>Terms and conditions*</b><br>
+    <label for="1">
+        <input type="radio" value="I agree" id="1" name="form">I agree
+    </label>
+    <label for="2">
+<input type="radio" value="I disagree" name="form" id="2">I disagree
+</label><br>
+    <input type="submit" value="submit">
+</body>
+
+</html>

@@ -1,0 +1,123 @@
+    * {
+        margin: 0px;
+        background-color: blue;
+        padding: 0px;
+        font-family: 'Lucida Sans'
+    }
+    
+    .box {
+        height: 320px;
+        width: 300px;
+        background-color: white;
+        margin-left: 500px;
+        margin-top: 100px;
+        text-align: center;
+        border-radius: 10px;
+        font-size: 30px;
+    }
+    
+    #bb {
+        background-color: white;
+        position: relative;
+        top: 15px;
+    }
+    
+    #hlo {
+        background-color: white;
+        position: relative;
+        top: 4px;
+    }
+    
+    #hii {
+        background-color: white;
+        position: relative;
+        top: 14px;
+        margin-right: 3px;
+    }
+    
+    #hi {
+        background-color: white;
+        position: relative;
+        top: 14px;
+        margin-right: 3px;
+    }
+    
+    #al {
+        background-color: white;
+        margin-right: 150px;
+    }
+    
+    #gh {
+        margin-top: 5px;
+        background-color: white;
+    }
+    
+    #size {
+        color: white;
+        border-radius: 25px;
+        height: 35px;
+        width: 125px;
+    }
+    
+    #size1 {
+        color: blue;
+        border-radius: 25px;
+        background-color: white;
+        height: 35px;
+        width: 125px;
+    }
+    
+    .mail {
+        background-color: white;
+        border-radius: 10px;
+        width: 250px;
+        height: 25px;
+    }
+    
+    .pass {
+        background-color: white;
+        border-radius: 10px;
+        width: 250px;
+        height: 25px;
+    }
+    
+    #set {
+        color: aqua;
+        background-color: white;
+        text-decoration: none;
+        font-size: 0.85rem;
+        position: relative;
+        left: 10px;
+        text-align: left;
+    }
+    
+    .lo {
+        border-radius: 10px;
+        background-color: blue;
+        color: white;
+        font-size: 1rem;
+        width: 250px;
+        height: 35px;
+    }
+    
+    #five {
+        color: black;
+        background-color: white;
+        font-size: 0.85rem;
+        text-align: start;
+    }
+    
+    #six {
+        color: aqua;
+        text-decoration: none;
+        font-size: 0.85rem;
+        background-color: white;
+    }
+    
+    #kl {
+        background-color: white;
+    }
+    
+    #hj {
+        background-color: white;
+    }
